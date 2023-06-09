@@ -1,0 +1,433 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">RHCS</string>
+
+
+    //add counterer.xml
+    <string name="hintpass">rhcs12</string>
+    <string name="mono">1234567890</string>
+    <string name="wait"> please wait..</string>
+    <string name="share"> share</string>
+    <string name="name"> Name</string>
+    <string name="counterer"> counterer</string>
+    <string name="user"> user</string>
+    <string name="offline"> You Are Offline...!</string>
+    <string name="username1"> username already exist</string>
+    <string name="allfield"> please enter all fields</string>
+    <string name="password1">password length should be 6 character</string>
+    <string name="passwordnot">password not matched</string>
+    <string name="valid">enter valid number</string>
+    <string name="add1">you can not add the counterer more than 3</string>
+    <string name="go">go to view</string>
+    <string name="exist">username already exist</string>
+    <string name="coutname">counterer added successfully</string>
+    <string name="gotidpass">counterer got username and password</string>
+    <string name="adcount">Add a counterer</string>
+    <string name="usr">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="mocoun">enter mobile of counterer</string>
+    <string name="ad">add</string>
+    <string name="not">Note-You can add only 3 counterers </string>
+    <string name="conp">confirm password</string>
+
+
+    //CountererAppointmentlist.java
+
+    <string name="testlist">Test List</string>
+
+    //AppHistory.java
+    <string name="fetch">Fetching appoinments </string>
+
+
+    //contact.java
+
+    <string name="share2"> share</string>
+    <string name="name2"> Name</string>
+    <string name="satara"> satara</string>
+    <string name="rahul"> Rahul Pardeshi</string>
+    <string name="monum">9766587722</string>
+    <string name="karad">Karad</string>
+    <string name="anna">Anna Pawar</string>
+    <string name="monum1">9890595089</string>
+    <string name="indapur">indapur</string>
+    <string name="shende">Shende</string>
+    <string name="monum2">9028187545</string>
+    <string name="baramati">baramati</string>
+    <string name="Shrinivas">Shrinivas Shelar</string>
+    <string name="monum3">9623015512</string>
+    <string name="phaltan">phaltan</string>
+    <string name="vasant">Vasant Khuspe</string>
+    <string name="monum4">9821316065</string>
+    <string name="belgaum">belgaum</string>
+    <string name="vikas">Vikas</string>
+    <string name="monum5">9148993518</string>
+    <string name="chiplun">chiplun</string>
+    <string name="akash">Akash</string>
+    <string name="monum6">8308942706</string>
+    <string name="call">call</string>
+    <string name="sure">Do you want to make a call to  </string>
+    <string name="tel">tel</string>
+    <string name="no">no</string>
+
+
+    //activity_dest.xml
+    <string name="click">Just click on image to go at location</string>
+
+    //dest.java
+    <string name="internet">NO INTERNET!</string>
+    <string name="retry">RETRY</string>
+    <string name="on">INTERNET IS ON</string>
+    <string name="offline1">YOU ARE OFFLINE</string>
+
+    // forgotpass.java
+    <string name="wait1"> please wait..</string>
+    <string name="username2">enter username</string>
+    <string name="change1">please enter username to change password</string>
+    <string name="user1"> user</string>
+    <string name="pass1"> pass</string>
+    <string name="stat"> static</string>
+    <string name="uservalid"> Enter Valid username</string>
+    <string name="allfield1"> please enter all fields</string>
+    <string name="longchar"> password must be greater than 6 character</string>
+    <string name="passw"> password</string>
+    <string name="passchang"> Password Changed</string>
+    <string name="notfound">password not found..!</string>
+    <string name="usernot">Username not found</string>
+    <string name="nomatch">not match</string>
+    <string name="youoff">You Are Offline...!</string>
+
+
+    //HeadManager.Java/headmanager.java
+
+
+    <string name="head"> head manager</string>
+    <string name="Leave">Leave</string>
+    <string name="want">Do you want to logout from this account?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="press">press again back to exit...</string>
+
+
+    //mobile.java
+    <string name="analysing">analysing OTP..!</string>
+    <string name="wait2"> please wait..</string>
+    <string name="paschn">Password Changed</string>
+    <string name="wrng">Wrong username</string>
+    <string name="pasw">password does not matched</string>
+    <string name="youof">You Are Offline...!</string>
+    <string name="validno">Enter valid number</string>
+    <string name="nomatch1">Phone number does not matched  </string>
+    <string name="regno">Enter Registered Number</string>
+    <string name="validcode">Enter valid code</string>
+    <string name="mobilef">enter mobile first</string>
+    <string name="verifying">verifying...</string>
+    <string name="otpsend">OTP sent to your number</string>
+    <string name="authentication">authentication successfull</string>
+    <string name="something">Something went wrong,try again</string>
+
+
+    //patientappointment.java
+    <string name="internetno">NO INTERNET!</string>
+    <string name="interon">INTERNET IS ON</string>
+
+
+    //reportgeneration.xml
+
+    <string name="generate">generate</string>
+
+    //select_center.xml
+
+    <string name="center">Select Center</string>
+    <string name="satara2"> satara</string>
+    <string name="karad2">Karad</string>
+    <string name="indapur2">indapur</string>
+    <string name="baramati2">baramati</string>
+    <string name="phaltan2">phaltan</string>
+    <string name="belgaum2">belgaum</string>
+    <string name="chiplun2">chiplun</string>
+
+
+    //select_center.java
+    <string name="move">please wait a movement...!</string>
+    <string name="continu">Do you want to continue with </string>
+    <string name="makesure">make sure</string>
+
+
+    //showall.java
+
+    <string name="event">loading events please wait..!</string>
+    <string name="notfoun"> events Not found</string>
+    <string name="eventdel"> Event deleted</string>
+    <string name="failevent">Failed</string>
+    <string name="yff">You are offline..!</string>
+    <string name="coninternet">please,connect to internet</string>
+
+
+    //showc.java
+    <string name="countere">Cant delete counterer need atleast 2</string>
+    <string name="delcount">Delete</string>
+    <string name="decount">Are you sure, you want to Delete Countere </string>
+
+    //UpComingApp.java
+
+
+    <string name="fetch1">Fetching appoinments </string>
+    <string name="delappoint">Appointment Deleted </string>
+
+    //UpComingApp2.java
+
+    <string name="fetch2">आपल्या भेटी आणत आहे</string>
+
+    //activity_upload.xml
+    <string name="upload1">Upload Here</string>
+
+    //upload.java
+
+
+    <string name="waitplz">uploading,please wait..!</string>
+    <string name="dosure">Do you want to continue with empty message</string>
+    <string name="plzcon">please,connect to internet</string>
+    <string name="selcent">please select center to proceed</string>
+    <string name="selectimg">please select image..!</string>
+    <string name="progressupload">upload is in progress</string>
+    <string name="msure">make sure</string>
+    <string name="noselect">no file selected</string>
+    <string name="uploadsuccess">upload successfully</string>
+
+    //add_appointment.xml
+
+    <string name="clickh">  click here </string>
+    <string name="gmail">xyz@gmail.com</string>
+    <string name="numbers">25487555</string>
+
+
+    //add_appointment.java
+    <string name="patintal"> Patient name already exist</string>
+    <string name="suc">Successfull</string>
+    <string name="fai">Failed</string>
+    <string name="ent">Enter Empty Fields</string>
+    <string name="cormo">enter correct mobile number</string>
+
+    //counterer_app_list.xml
+    <string name="adtest">add test</string>
+
+
+    //login.xml
+
+    <string name="maklog"> Make a Login  </string>
+    <string name="forpass">Forgot/change Password?</string>
+    <string name="Login">LogIn</string>
+    <string name="arenew">Are you new?Register Now</string>
+
+    //login.java
+
+    <string name="chnglang">changing language</string>
+    <string name="verywait">veryfying please wait a movement</string>
+    <string name="entfield">please enter fields</string>
+    <string name="loginsucces">login successful</string>
+    <string name="pasnotfound">password not found</string>
+    <string name="plsvalidpassword">please enter valid password </string>
+    <string name="tryagin">please Try again...</string>
+    <string name="usernotfound">username not found</string>
+    <string name="youareoff">You Are Offline...!</string>
+
+
+    //patientdetails.xml
+
+    <string name="patientname">Patient Name:-</string>
+    <string name="weg">Weight:-</string>
+    <string name="agepatient">Age:-</string>
+    <string name="gend">Gender:-</string>
+    <string name="refdoctor">Ref by doctor:-</string>
+    <string name="clinicdetail">Clinical Details:-</string>
+    <string name="historypatient">History of:-</string>
+    <string name="gmaill">Email:-</string>
+    <string name="monumber">Mobile Number:-</string>
+    <string name="callhere">call from here</string>
+
+    //popup.xml
+    <string name="chngpass">Change password</string>
+    <string name="newpas">Enter new password</string>
+    <string name="rhcsrg">eg rhcs123</string>
+    <string name="conpass">Confirm password</string>
+    <string name="canclepass">cancle</string>
+    <string name="changepas">change</string>
+
+
+    //register.xml
+
+    <string name="makereg">Make a Registration</string>
+    <string name="egabc">eg abc</string>
+    <string name="rhcs123">eg rhcs123</string>
+    <string name="eg12">eg 1234</string>
+    <string name="confirmpasss">confirm password</string>
+    <string name="egxyz">eg xyz123</string>
+    <string name="canclepas">CANCLE</string>
+
+
+    //Appointmentlist.java
+
+    <string name="makcall">  Do you want to make a call</string>
+    <string name="permissiongrant">Please grant permission</string>
+    <string name="trycall">can not call,try again</string>
+
+    //register.java
+
+    <string name="registering">registering,please wait..!</string>
+    <string name="pleaseent">please enter all fields</string>
+    <string name="passnotmatch">password not matched</string>
+    <string name="userall">username already exist</string>
+    <string name="mustbe6">username must be greate than 6 character</string>
+    <string name="password6">password length should be 6 character</string>
+    <string name="regsuc">Registration successful</string>
+    <string name="thankyou">Thank you for registration..!</string>
+
+    //UserAppointmentlist.java
+    <string name="aresure">Are you sure, you want to Delete this Appointment</string>
+    <string name="appdel">Appointment Deleted</string>
+    <string name="dd">Delete</string>
+
+
+    <string name="current_language">English</string>
+    <string name="open">Open</string>
+    //addappointment
+    <string name="regestration">Regestration</string>
+    <string name="Patientname">Eg John</string>
+    <string name="weight">Eg 40KG</string>
+    <string name="Age">Eg 35</string>
+    <string name="Gender">Gender</string>
+    <string name="referance">Eg DR.John Farnandis</string>
+    <string name="phone">Eg 1234567890(optional)</string>
+    <string name="details">Eg Asthma,Pregnancy etc</string>
+    <string name="history">Eg Asthma related(,weeks,months)</string>
+    <string name="other">Any Other(Please Specify)(optional)</string>
+    <string name="register">Registration</string>
+    <string name="cancel">Cancel</string>
+
+    //about 3 tesla
+    <string name="ab3">About of CT Scan</string>
+    <string name="ab1">About 1.5 Tesla machine</string>
+    <string name="ab2">About Of 3 Tesla</string>
+
+    <string name="information">
+        ​1) It is extremely efficient, leading to shorter examination times.\n\n
+        2) It provides a more pleasant patient experience, since the shorter size
+           of the magnet bore relieves the sense of confinement patients associate with most MRI scanners.\n\n
+        3) The higher resolution of the 3 Tesla MRI produces more detailed images, which are beneficial when diagnosing pathological conditions involving the brain, spine, and musculoskeletal system. The resolution and clarity also allow radiologists to identify smaller lesions and anatomical structures that cannot be seen with less powerful machines.\n\n
+        4) It allows for more sophisticated imaging procedures with more accurate diagnosis.\n\n
+        5) It lowers the risk of distorted images, thus eliminating the need for repeated scans.\n\n
+    </string>
+
+    <string name="information1">
+        ​1) Here “T” in 1.5T and 3T stands for Tesla..\n\n
+        2) Tesla is defined as the unit of measurement used to describe the strength of the magnet used in an MRI.\n\n
+        3) The magnet is the M in MRI (Magnetic Resonance Imaging).\n\n
+        4) This magnet is the basis of how images in MRI are acquired.\n\n
+        5) The strength of the magnet directly affects the quality of those images, however there are several other factors that determine which magnetic strength is best suited for the person being imaged and for the or specific body part being scanned or imaged.\n\n
+    </string>
+
+
+    <string name="information2">
+        ​1) They use a narrow X-ray beam that circles around one part of your body. This provides a series of images from many different angles.\n\n
+        2) A computer uses this information to create a cross-sectional picture. \n\n
+        3) Like one piece in a loaf of bread, this two-dimensional (2D) scan shows a “slice” of the inside of your body.\n\n
+        4) This process is repeated to produce a number of slices. The computer stacks these scans one on top of the other to create a detailed image of your organs, bones, or blood vessels.\n\n
+        5) For example, a surgeon may use this type of scan to look at all sides of a tumor to prepare for an operation.\n\n
+    </string>
+
+
+    <string name="more">More Information</string>
+    <string name="morelink"><u>(Click Here)</u></string>
+
+
+    <string name="instruction">Instructions</string>
+
+    <string name="instructions">
+1) It is possible to make an appointment \n\n
+2) Do not take food or water or other beverages for 2 to 4 hours before coming to check.\n\n
+3) Take all medicines prescribed by the doctor.\n\n
+4) All previous X-rays, CT Capture all reports, scans, etc.\n\n
+5) It is necessary to give a complete idea of ​​pregnancy (if pregnant) or drug allergy or kidney development.\n\n
+6) Due to the shortage of check-up time, it may be possible to give priority to the patients who are in distress.\n\n
+7)But the best quality will be maintained.\n\n
+            </string>
+    <string name="add">Add Appintment</string>
+
+    //counterer module
+    <string name="list">Appintment List</string>
+    <string name="report">Generate Report </string>
+    <string name="title_activity_counter">counter</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_nav">nav</string>
+    <string name="username">Enter Username</string>
+
+    <string name="login">REGISTER</string>
+    <string name="nam">Enter Name</string>
+    <string name="con">Contact</string>
+    <string name="adco">add countere</string>
+    <string name="neup">News and updates</string>
+    <string name="rpt">view report</string>
+    <string name="userde">Patient Details</string>
+    <string name="loca">Go to Location</string>
+    <string name="pass">change the password</string>
+    <string name="previous">Enter previous password</string>
+    <string name="newp">Enter new password</string>
+    <string name="change">change</string>
+    <string name="trya">try another way?make phone authetication</string>
+    <string name="ify">if you want to change password with phone authentication then you must provide username </string>
+    <string name="tsl">1.5 tesla</string>
+    <string name="tsl1">3 tesla</string>
+    <string name="cts">Ct scan</string>
+    <string name="auth">Authentication</string>
+    <string name="phnu">Enter Phone number</string>
+    <string name="ph">phone</string>
+    <string name="sendc">Send Code</string>
+    <string name="resendc">Resend Code</string>
+    <string name="cod">Code</string>
+    <string name="veri">Verify Code</string>
+    <string name="about3t">About Scanning Machines</string>
+    <string name="appoint">Add Appointment</string>
+    <string name="upcomingapp">Up Coming Appointment</string>
+    <string name="apphistory">Appointment History</string>
+    <string name="contt">Contact</string>
+    <string name="direct">Get Direction</string>
+    <string name="inst">Instructions</string>
+    <string name="off">You Are Offline</string>
+    <string name="noapp">No Appointments Registered</string>
+    <string name="upl">upload</string>
+    <string name="show">show all</string>
+    <string name="tex">event caption</string>
+    <string name="patn">Patient Name</string>
+    <string name="wei">Weight</string>
+    <string name="ag">Age</string>
+    <string name="gen">Gender</string>
+    <string name="dateapp">select date for appointment</string>
+    <string name="refby">Ref. By Dr.</string>
+    <string name="detail">Clinical Details</string>
+    <string name="hist">History of</string>
+    <string name="email">email</string>
+    <string name="mob">mobile no.</string>
+    <string name="hello_blank_fragment" tools:ignore="MissingTranslation">Hello blank fragment</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string-array name="Gender">
+        <item>Select_Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Trancegender</item>
+    </string-array>
+</resources>

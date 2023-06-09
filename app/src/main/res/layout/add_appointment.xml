@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_appointment"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/patientaddappointment"
+            android:padding="10dp"
+            android:src="@drawable/addappointment" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:padding="10dp"
+            android:text="@string/appoint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#363131"
+                android:layout_marginBottom="4dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#363131"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/patn"
+                android:textColor="@color/signupColor"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/patientname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Patientname"
+                android:inputType="text"
+                android:maxLength="30"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/wei"
+                android:textColor="@color/signupColor"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/weight"
+                android:inputType="number"
+                android:maxLength="4"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/ag"
+                android:textColor="@color/signupColor"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/Age"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/gen"
+                android:textColor="@color/signupColor"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Spinner
+                        android:id="@+id/gender"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:padding="10dp"
+                        android:layout_alignParentLeft="true"
+                        />
+
+                    <android.widget.TextView
+                        android:id="@+id/tvInvisibleErrorBlood"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_alignRight="@+id/gender"
+                        android:layout_alignBottom="@+id/gender"
+                        android:layout_marginTop="0dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:paddingTop="0dp"
+                        android:paddingRight="50dp" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/dateapp"
+                android:textColor="@color/signupColor"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="click here"
+                android:inputType="text"
+                android:maxLength="10"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/refby"
+                android:textColor="@color/signupColor"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/ref"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/referance"
+                android:inputType="text"
+                android:maxLength="30"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/detail"
+                android:textColor="@color/signupColor"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/details"
+                android:inputType="text"
+                android:maxLength="30"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/hist"
+                android:textColor="@color/signupColor"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/history"
+                android:inputType="text"
+                android:maxLength="50"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/email"
+                android:textColor="@color/signupColor"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/gmail"
+                android:inputType="text"
+                android:maxLength="30"
+                android:padding="15dp"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/mob"
+                android:textColor="@color/signupColor"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/mo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/numbers"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:padding="15dp"
+
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="15dp"
+
+                    android:elevation="10dp"
+                    android:background="@drawable/round_button"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_cancle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="15dp"
+                    android:text="@string/canclepas"
+                    android:layout_marginBottom="5dp"
+                    android:elevation="10dp"
+                    android:background="@drawable/roundbutton2"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

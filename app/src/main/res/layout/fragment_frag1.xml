@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/signupColor"
+    tools:context=".frag1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <com.synnapps.carouselview.CarouselView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:slideInterval="3000"
+                app:strokeWidth="1dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/machine1"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text1"
+                android:layout_centerHorizontal="true"
+                android:text="@string/ab1"
+                android:textSize="30dp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"  />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#363131"
+                android:id="@+id/vi"
+                android:layout_below="@+id/text1"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#363131"
+                android:layout_marginTop="4dp"
+                android:id="@+id/vii"
+                android:layout_below="@+id/vi"/>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text2"
+                    android:text="@string/information1"
+                    android:textSize="15sp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:justificationMode="inter_word"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt1"
+                    android:text="@string/more"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:layout_below="@+id/text2"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtt"
+                    android:text="@string/morelink"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/txt1"
+                    android:gravity="center"
+                    android:textColor="@color/websitelinnk" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

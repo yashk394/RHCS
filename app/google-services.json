@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "611219356758",
+    "project_id": "rhcs-baad4",
+    "storage_bucket": "rhcs-baad4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611219356758:android:d484c89a6e7e842c3ecff7",
+        "android_client_info": {
+          "package_name": "com.example.rhcs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611219356758-2tol9tru289l5d7ihp4eud3m9kjbjtaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQWLdzBYhyJOsQJNCfLh5x_LzzfSXgCxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611219356758-2tol9tru289l5d7ihp4eud3m9kjbjtaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

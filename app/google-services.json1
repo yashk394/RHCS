@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "87815290680",
+    "firebase_url": "https://tesla-mri-management.firebaseio.com",
+    "project_id": "tesla-mri-management",
+    "storage_bucket": "tesla-mri-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87815290680:android:4f384b84295d770da1cbcd",
+        "android_client_info": {
+          "package_name": "com.example.rhcs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87815290680-pk794vs5oalcedfmeomr0p2kf9mhjgg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-4EmVPb4EcvRlNPFZVZzWzo7v3tgJoGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87815290680-pk794vs5oalcedfmeomr0p2kf9mhjgg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/signupColor"
+    android:id="@+id/linear"
+    tools:context=".forgotpass">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/pass"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        />
+    <LinearLayout
+        android:id="@+id/LayoutInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@color/white"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/usr"
+            android:textColor="@color/signupColor"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/namee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/username"
+            android:drawablePadding="20dp"
+            android:hint="eg abc"
+            android:inputType="textPersonName" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/previous"
+            android:textColor="@color/signupColor"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/passs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/pass"
+            android:drawablePadding="20dp"
+            android:hint="eg rhcs123"
+            android:inputType="textPassword" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newp"
+            android:textColor="@color/signupColor"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/npass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/pas"
+            android:drawablePadding="20dp"
+            android:hint="eg rhcs123"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/conp"
+            android:textColor="@color/signupColor"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/cpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/pas"
+            android:drawablePadding="20dp"
+            android:hint="eg rhcs123"
+            android:inputType="textPassword" />
+        <Button
+            android:id="@+id/change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/change"
+           android:textAllCaps="false"
+            android:elevation="10dp"
+            android:background="@drawable/round_button"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/trya"
+            android:layout_marginTop="20dp"
+            android:id="@+id/phonee"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            />
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           >
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/info"
+               android:layout_marginTop="20dp"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/ify"
+               android:layout_marginTop="20dp"
+android:textSize="15dp"
+               />
+       </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

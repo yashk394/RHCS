@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/drawable-v24/background1.xml" value="0.22037037037037038" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/drawable-v24/background5.xml" value="0.22962962962962963" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/drawable/addappointment.xml" value="0.22037037037037038" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/drawable/forgot.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/drawable/information.xml" value="0.22037037037037038" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/drawable/login.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/drawable/round_button.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_aboutus.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_addconterer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_app_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_contact.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_counterr_patient_app.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_dest.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_forgotpass.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_head_manager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_historydetails.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_hmangerreport.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_manager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_mixed13.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_mobile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_patientappointment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_reportgeneration.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_select_center.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_showall.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_showc.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_up_coming_app.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_up_coming_app2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_upload.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_view_appointment_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/activity_viewappointment_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/add_appointment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/addeddtestnotification.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/appointment_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/counterer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/counterer_app_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/delete_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/fragment_frag1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/fragment_frag2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/fragment_frag3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/img.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/instructions.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/list_single.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/notification_expanded.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/patientdetails.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/patientdetails1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/popup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Slim-5/Desktop/RHCS/RHCS/app/src/main/res/layout/upcoming3.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

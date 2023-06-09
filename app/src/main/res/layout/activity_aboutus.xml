@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/login"
+    tools:context=".aboutus">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="ABOUT US"
+    android:textStyle="bold"
+    android:textColor="@color/lightgray"
+    android:layout_marginTop="5dp"
+    android:textSize="35dp"
+    android:elevation="5dp"
+    />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="150dp"
+               android:layout_height="300dp"
+               android:layout_margin="10dp"
+               android:clickable="true"
+               android:focusable="true"
+               android:id="@+id/card1"
+               android:foreground="?android:attr/selectableItemBackground"
+               app:cardBackgroundColor="@color/signupColor"
+               app:cardCornerRadius="20dp"
+               app:cardMaxElevation="5dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:orientation="vertical">
+
+                   <ImageView
+                       android:layout_width="150dp"
+                       android:layout_height="150dp"
+                       android:padding="10dp"
+                       android:src="@drawable/sid" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:fontFamily="cursive"
+                           android:text="Siddhesh S.P"
+                       android:textColor="@color/colorAccent"
+                       android:textSize="25dp"
+                       android:textStyle="bold" />
+
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:layout_margin="10dp"
+                       android:background="@color/colorAccent" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:gravity="center"
+                       android:padding="5dp"
+                       android:text="Contact: 8788282089"
+                       android:textColor="@color/colorAccent" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:gravity="center"
+                       android:padding="5dp"
+                       android:text="Siddheshpardeshi01@gmail.com"
+                       android:textColor="@color/colorAccent"
+                       android:textSize="10dp" />
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/card2"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardBackgroundColor="@color/signupColor"
+                app:cardCornerRadius="20dp"
+                app:cardMaxElevation="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:padding="10dp"
+                        android:src="@drawable/yash" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="Yash V.K"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="35dp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Contact: 9588426121"
+                        android:textColor="@color/colorAccent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="yashvk394@gmail.com"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            android:id="@+id/card3"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/signupColor"
+            app:cardCornerRadius="20dp"
+            app:cardMaxElevation="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="10dp"
+                    android:src="@drawable/rushi" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="cursive"
+                    android:text="Rushi M.G"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Contact: 9527155129"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="rushighogardare96@gmail.com"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/signupColor"
+            app:cardCornerRadius="20dp"
+            android:id="@+id/card4"
+            app:cardMaxElevation="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="10dp"
+                    android:src="@drawable/gaurav" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="cursive"
+                    android:text="Gaurav G.G"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Contact: 7972884471"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="gauravvarpe321@gmail.com"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="Note: Make long press on cards to make contact with us!"
+                android:textColor="@color/lightgray"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="Helping hands-Tanmay S.P"
+                android:textColor="@color/lightgray"
+                />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

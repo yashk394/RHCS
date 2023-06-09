@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/signupColor"
+    tools:context=".contact">
+    <ImageView
+        android:id="@+id/im"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="170dp"
+        android:background="@drawable/background6"
+        android:gravity="center"
+
+        android:padding="10dp"
+        android:src="@drawable/mobile" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/con"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:id="@+id/vv"
+        android:layout_below="@+id/im"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#363131"
+        android:id="@+id/vii"
+        android:layout_below="@+id/vv"
+        android:layout_marginBottom="4dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/vip"
+        android:layout_below="@+id/vii"
+        android:background="#363131"/>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/vip"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" >
+
+    </ListView>
+</RelativeLayout>

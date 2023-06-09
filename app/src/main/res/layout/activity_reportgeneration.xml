@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".reportgeneration">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:text="select date"
+    android:id="@+id/date1"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/generate"
+        android:text="@string/generate"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+<ListView
+    android:layout_width="match_parent"
+    android:id="@+id/lissst"
+    android:dividerHeight="10dp"
+    android:padding="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_height="500dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+        android:text="save"
+        android:elevation="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_button"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

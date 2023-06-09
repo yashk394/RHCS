@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rhcs">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:name=".notification"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".hmangerreport"></activity>
+        <activity android:name=".aboutus" />
+        <activity android:name=".HeadManager" />
+        <activity android:name=".reportgeneration" />
+        <activity android:name=".historydetails" />
+        <activity android:name=".UpComingApp2" />
+        <activity android:name=".mixed13" />
+        <activity android:name=".CounterrPatientApp" />
+        <activity android:name=".showc" />
+        <activity android:name=".addconterer" />
+        <activity android:name=".Manager" />
+        <activity android:name=".showall" />
+        <activity android:name=".upload" />
+        <activity android:name=".select_center" />
+        <activity
+            android:name=".splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AppHistory" />
+        <activity android:name=".UpComingApp" />
+        <activity android:name=".forgotpass" />
+        <activity android:name=".contact" />
+        <activity android:name=".login" />
+        <activity android:name=".ViewAppointmentDetails" />
+        <activity android:name=".ViewappointmentList" />
+        <activity android:name=".instructions" />
+        <activity android:name=".counterer" />
+        <activity android:name="    .add_appointment" />
+        <activity android:name=".patientappointment" />
+        <activity android:name=".dest" />
+        <activity android:name=".register" />
+        <activity android:name=".mobile" />
+
+        <receiver android:name=".notireceiver" />
+    </application>
+
+
+</manifest>

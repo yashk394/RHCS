@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ret"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@color/signupColor"
+    tools:context=".dest">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="20dp"
+    >
+    <ImageView
+        android:id="@+id/im"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/background2"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/location" />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loca"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:id="@+id/vv"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#363131"
+        android:id="@+id/vii"
+        android:layout_below="@+id/vv"
+        android:layout_marginBottom="4dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/vii"
+        android:background="#363131"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/mapp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/img"
+        />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/info"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/img"
+            android:gravity="center"
+            android:layout_marginRight="360dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/click"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/img"
+            android:gravity="center"
+android:textColor="#fff"
+            android:textSize="20dp"
+
+            />
+</RelativeLayout>

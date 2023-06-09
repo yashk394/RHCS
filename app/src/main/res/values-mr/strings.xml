@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RHCS</string>
+
+    //add counterer.xml
+
+    <string name="hintpass">आर एच सी एस 12</string>
+    <string name="mono">1234567890</string>
+    <string name="wait"> कृपया प्रतीक्षा करा ..</string>
+    <string name="share"> सामायिक करा</string>
+    <string name="name"> नाव</string>
+    <string name="counterer"> काउंटरर</string>
+    <string name="user"> वापरकर्ता</string>
+    <string name="offline"> आपण ऑफलाइन आहात ...!</string>
+    <string name="username1"> वापरकर्तानाव आधीपासून विद्यमान आहे</string>
+    <string name="allfield"> कृपया सर्व फील्ड प्रविष्ट करा</string>
+    <string name="password1">संकेतशब्द लांबी 6 वर्णांची असावी</string>
+    <string name="passwordnot">संकेतशब्द जुळला नाही</string>
+    <string name="valid">वैध क्रमांक प्रविष्ट करा</string>
+    <string name="add1">आपण 3 पेक्षा जास्त काउंटरर जोडू शकत नाही</string>
+    <string name="go">पाहण्यासाठी येथे जा</string>
+    <string name="exist">वापरकर्तानाव आधीपासून विद्यमान आहे</string>
+    <string name="coutname">काउंटर यशस्वीरित्या जोडला</string>
+    <string name="gotidpass">काउंटररला युजरनेम आणि पासवर्ड मिळाला</string>
+    <string name="adcount">काउंटरर जोडा</string>
+    <string name="usr">वापरकर्तानाव प्रविष्ट करा</string>
+    <string name="conp">पासवर्डची पुष्टी करा</string>
+    <string name="mocoun">काउंटररचा मोबाइल प्रविष्ट करा</string>
+    <string name="ad">जोडा</string>
+    <string name="not">टीप-आपण एकावेळी केवळ 3 प्रतिनिधी जोडू शकता</string>
+    <string name="password">संकेतशब्द प्रविष्ट करा</string>
+
+    //AppHistory.java
+    <string name="fetch">भेटी आणत आहे </string>
+
+//contact
+    <string name="share2"> सामायिक करा</string>
+    <string name="name2"> नाव</string>
+    <string name="satara"> सातारा</string>
+    <string name="rahul"> राहुल परदेशी</string>
+    <string name="monum">9766587722</string>
+    <string name="karad">कराड</string>
+    <string name="anna">अण्णा पवार</string>
+    <string name="monum1">9890595089</string>
+    <string name="indapur">इंदापूर</string>
+    <string name="shende">शेंडे</string>
+    <string name="monum2">9028187545</string>
+    <string name="baramati">बारामती</string>
+    <string name="Shrinivas">श्रीनिवास शेलार </string>
+    <string name="monum3">9623015512</string>
+    <string name="phaltan">फलटण</string>
+    <string name="vasant">वसंत खुपसे</string>
+    <string name="monum4">9821316065</string>
+    <string name="belgaum">बेळगाव</string>
+    <string name="vikas">विकास</string>
+    <string name="monum5">9148993518</string>
+    <string name="chiplun">चिपळूण</string>
+    <string name="akash">आकाश</string>
+    <string name="monum6">8308942706</string>
+    <string name="call">कॉल</string>
+    <string name="sure">आपल्याला कॉल करायचा आहे का</string>
+    <string name="tel">दूरध्वनी</string>
+    <string name="no">नाही</string>
+
+    //activity_dest.xml
+    <string name="click">स्थानावर जाण्यासाठी फक्त प्रतिमेवर क्लिक करा</string>
+
+    //dest.java
+    <string name="internet">इंटरनेट नाही!</string>
+    <string name="retry">पुन्हा प्रयत्न करा</string>
+    <string name="on">इंटरनेट चालू आहे</string>
+    <string name="offline1">आपण ऑफलाइन आहात</string>
+
+    // forgotpass.java
+
+    <string name="wait1">कृपया प्रतीक्षा करा ....</string>
+    <string name="username2">वापरकर्तानाव प्रविष्ट करा</string>
+    <string name="change1">कृपया संकेतशब्द बदलण्यासाठी वापरकर्तानाव प्रविष्ट करा</string>
+    <string name="user1"> वापरकर्ता</string>
+    <string name="pass1"> पास</string>
+    <string name="stat"> स्थिर</string>
+    <string name="uservalid"> वैध वापरकर्तानाव प्रविष्ट करा</string>
+    <string name="allfield1"> कृपया सर्व फील्ड प्रविष्ट करा</string>
+    <string name="longchar">संकेतशब्द 6 वर्णांपेक्षा मोठा असणे आवश्यक आहे</string>
+    <string name="passw"> संकेतशब्द</string>
+    <string name="passchang">संकेतशब्द बदलला</string>
+    <string name="notfound">संकेतशब्द सापडला नाही ..!</string>
+    <string name="usernot">वापरकर्तानाव आढळले नाही</string>
+    <string name="nomatch">जुळत नाही</string>
+    <string name="youoff">आपण ऑफलाइन आहात ...!</string>
+
+
+    //HeadManager.Java
+    <string name="head"> मुख्य व्यवस्थापक</string>
+    <string name="Leave">सोडा</string>
+    <string name="want">आपण या खात्यातून लॉगआउट करू इच्छिता?</string>
+    <string name="Yes">होय</string>
+    <string name="No">नाही</string>
+    <string name="press">बाहेर पडण्यासाठी मागे बटण परत दाबा ...</string>
+
+    //mobile.java
+
+    <string name="analysing">ओटीपीचे विश्लेषण करीत आहे ..!</string>
+    <string name="wait2">कृपया प्रतीक्षा करा ....</string>
+    <string name="paschn"> संकेतशब्द बदलला</string>
+    <string name="wrng">चुकीचे वापरकर्तानाव</string>
+    <string name="pasw">संकेतशब्द जुळत नाही</string>
+    <string name="youof">आपण ऑफलाइन आहात ...!</string>
+    <string name="validno">वैध क्रमांक प्रविष्ट करा</string>
+    <string name="nomatch1">फोन नंबर जुळत नाही</string>
+    <string name="regno">नोंदणीकृत क्रमांक प्रविष्ट करा</string>
+    <string name="validcode">वैध कोड प्रविष्ट करा</string>
+    <string name="mobilef">प्रथम मोबाइल प्रविष्ट करा</string>
+    <string name="verifying">सत्यापित करीत आहे ...</string>
+    <string name="otpsend">आपल्या नंबरवर ओटीपी पाठविला</string>
+    <string name="authentication">प्रमाणीकरण सक्सेसफुल</string>
+    <string name="something">काहीतरी चूक झाली, पुन्हा प्रयत्न करा</string>
+
+
+    //patientappointment.java
+
+    <string name="internetno">इंटरनेट नाही!</string>
+    <string name="interon">इंटरनेट चालू आहे</string>
+
+    //reportgeneration.xml
+    <string name="generate">उत्पन्न करा</string>
+
+    //select_center.xml
+    <string name="center">केंद्र निवडा</string>
+    <string name="satara2"> सातारा</string>
+    <string name="karad2">कराड</string>
+    <string name="indapur2">इंदापूर</string>
+    <string name="baramati2">बारामती</string>
+    <string name="phaltan2">फलटण</string>
+    <string name="belgaum2">बेळगाव</string>
+    <string name="chiplun2">चिपळूण</string>
+
+
+
+
+    //select_center.java
+    <string name="move">कृपया थोडी प्रतीक्षा करा ...!</string>
+    <string name="continu">आपण सुरू ठेवू इच्छिता?</string>
+    <string name="makesure">खात्री करा</string>
+
+    //showall.java
+
+    <string name="event">कार्यक्रम लोड होत आहेत कृपया प्रतीक्षा करा ..!</string>
+    <string name="notfoun"> कार्यक्रम आढळले नाहीत</string>
+    <string name="eventdel"> कार्यक्रम हटविला</string>
+    <string name="failevent">अयशस्वी</string>
+    <string name="yff">आपण ऑफलाइन आहात ...!</string>
+    <string name="coninternet">कृपया, इंटरनेटशी कनेक्ट व्हा</string>
+
+    //showc.java
+
+    <string name="countere">हटवू शकत नाही काउंटरर किमान 2 आवश्यक आहे</string>
+    <string name="delcount">हटवा</string>
+    <string name="decount">आपली खात्री आहे की आपण काउंटर हटवू इच्छिता </string>
+
+    //UpComingApp.java
+    <string name="fetch1">भेटी आणत आहे </string>
+    <string name="delappoint">नियुक्ती हटविली </string>
+
+    //UpComingApp2.java
+    <string name="fetch2"> Fetching Your Appointments</string>
+
+    //activity_upload.xml
+    <string name="upload1">येथे अपलोड करा</string>
+
+
+    //upload.java
+
+    <string name="waitplz">अपलोड करीत आहे, कृपया प्रतीक्षा करा ..!</string>
+    <string name="dosure">आपण रिक्त संदेश सुरू ठेवू इच्छिता?</string>
+    <string name="plzcon">कृपया, इंटरनेटशी कनेक्ट व्हा</string>
+    <string name="selcent">कृपया पुढे जाण्यासाठी केंद्र निवडा</string>
+    <string name="selectimg">कृपया प्रतिमा निवडा ..!</string>
+    <string name="progressupload">अपलोड प्रगतीपथावर आहे</string>
+    <string name="msure">खात्री करा</string>
+    <string name="noselect">कोणतीही फाईल निवडलेली नाही</string>
+    <string name="uploadsuccess">यशस्वीरित्या अपलोड केले</string>
+
+    //add_appointment.xml
+
+    <string name="clickh">इथे क्लिक करा</string>
+    <string name="gmail">xyz@gmail.com</string>
+    <string name="numbers">25487555</string>
+
+    //add_appointment.java
+    <string name="patintal">पेशंटचे नाव आधीच अस्तित्वात आहे</string>
+    <string name="suc">सक्सेसफुल</string>
+    <string name="fai">अयशस्वी</string>
+    <string name="ent">रिक्त फील्ड प्रविष्ट करा</string>
+    <string name="cormo">योग्य मोबाइल नंबर प्रविष्ट करा</string>
+
+    //counterer_app_list.xml
+
+    <string name="adtest">चाचणी जोडा</string>
+
+
+    //login.xml
+    <string name="maklog">लॉगिन करा  </string>
+    <string name="forpass">संकेतशब्द विसरलात किंवा बदलला आहे?</string>
+    <string name="Login">प्रविष्ट करा</string>
+    <string name="arenew">आपण नवीन आहात का? आता नोंदणी करा</string>
+
+    //login.java
+    <string name="chnglang">भाषा बदलत आहे</string>
+    <string name="verywait">कृपया थोडा वेळ थांबा</string>
+    <string name="entfield">कृपया फील्ड प्रविष्ट करा</string>
+    <string name="loginsucces">लॉगिन यशस्वी</string>
+    <string name="pasnotfound">संकेतशब्द आढळला नाही</string>
+    <string name="plsvalidpassword">कृपया वैध संकेतशब्द प्रविष्ट करा </string>
+    <string name="tryagin">कृपया पुन्हा प्रयत्न करा...</string>
+    <string name="usernotfound">वापरकर्तानाव आढळले नाही</string>
+    <string name="youareoff">आपण ऑफलाइन आहात ...!</string>
+
+    //patientdetails.xml
+
+    <string name="patientname">रुग्णाचे नाव: -</string>
+    <string name="weg">वजन:-</string>
+    <string name="agepatient">वय: -</string>
+    <string name="gend">लिंग: -</string>
+    <string name="refdoctor">डॉक्टरांनी संदर्भित केलेले: -</string>
+    <string name="clinicdetail">क्लिनिकल तपशील: -</string>
+    <string name="historypatient">चा इतिहास:-</string>
+    <string name="gmaill">ईमेल: -</string>
+    <string name="monumber">मोबाइल क्रमांक: -</string>
+    <string name="callhere">येथून कॉल करा</string>
+
+
+    //popup.xml
+
+    <string name="chngpass">संकेतशब्द बदला</string>
+    <string name="newpas">नवीन पासवर्ड टाका</string>
+    <string name="rhcsrg">उदा rhcs123</string>
+    <string name="conpass">पासवर्डची पुष्टी करा</string>
+    <string name="canclepass">रद्द करा</string>
+    <string name="changepas">बदल</string>
+
+    //register.xml
+
+    <string name="makereg">नोंदणी करा</string>
+    <string name="egabc">उदा. एबीसी</string>
+    <string name="rhcs123">उदा rhcs123</string>
+    <string name="eg12">उदा. 1234</string>
+    <string name="confirmpasss">पासवर्डची पुष्टी करा</string>
+    <string name="egxyz">उदा. xyz123</string>
+    <string name="canclepas">रद्द करा</string>
+
+    //Appointmentlist.java
+
+    <string name="makcall">  आपल्याला कॉल करायचा आहे का?</string>
+    <string name="permissiongrant">कृपया परवानगी द्या</string>
+    <string name="trycall">कॉल करू शकत नाही, पुन्हा प्रयत्न करा</string>
+
+    //register.java
+    <string name="registering">नोंदणी, कृपया प्रतीक्षा करा ..!</string>
+    <string name="pleaseent">कृपया सर्व फील्ड प्रविष्ट करा</string>
+    <string name="passnotmatch">संकेतशब्द जुळला नाही</string>
+    <string name="userall">वापरकर्तानाव आधीपासून विद्यमान आहे</string>
+    <string name="mustbe6">वापरकर्तानाव 6 वर्णांपेक्षा ग्रेट असणे आवश्यक आहे</string>
+    <string name="password6">संकेतशब्द लांबी 6 वर्णांची असावी</string>
+    <string name="regsuc">नोंदणी यशस्वी</string>
+    <string name="thankyou">नोंदणी केल्याबद्दल धन्यवाद ..!</string>
+
+    //UserAppointmentlist.java
+
+    <string name="aresure">आपली खात्री आहे की आपण ही नियुक्ती हटवू इच्छिता</string>
+    <string name="appdel">नियुक्ती हटविली</string>
+    <string name="dd">हटवा</string>
+
+    //CountererAppointmentlist.java
+
+    <string name="testlist">चाचणी यादी</string>
+
+
+    <string name="current_language">English</string>
+    <string name="open">Open</string>
+    //addappointment
+    <string name="regestration">Regestration</string>
+    <string name="Patientname">Eg John</string>
+    <string name="weight">Eg 40KG</string>
+    <string name="Age">Eg 35</string>
+    <string name="Gender">Gender</string>
+    <string name="referance">Eg DR.John Farnandis</string>
+    <string name="phone">Eg 1234567890(optional)</string>
+    <string name="details">Eg Asthma,Pregnancy etc</string>
+    <string name="history">Eg Asthma related(,weeks,months)</string>
+    <string name="other">Any Other(Please Specify)(optional)</string>
+    <string name="register">Registration</string>
+    <string name="cancel">Cancel</string>
+
+    //about 3 tesla
+    <string name="ab1"> 1.5 टेस्ला मशीन बद्दल</string>
+    <string name="ab2"> 3 टेस्ला मशीन बद्दल</string>
+    <string name="ab3"> सीटी स्कॅन बद्दल</string>
+
+    <string name="information">
+        ​1) हे अत्यंत कार्यक्षम आहे आणि परीक्षेच्या वेळा कमी देतात.\n\n
+        2) हा लहान आकाराचा असल्याने रुग्णांना अधिक आनंददायी अनुभव प्रदान करतो
+           बहुतेक एमआरआय स्कॅनरशी संबंधित कैद असलेल्या रुग्णांची भावना कमी करते.\n\n
+        3) 3 टेस्ला एमआरआयचे उच्च रिझोल्यूशन अधिक तपशीलवार प्रतिमा तयार करते, जे मेंदू, मणक्याचे आणि मस्क्युलोस्केलेटल सिस्टमच्या पॅथॉलॉजिकल परिस्थितीचे निदान करताना फायदेशीर ठरतात. रिजोल्यूशन आणि स्पष्टता देखील रेडिओलॉजिस्टला लहान जखम आणि शारीरिक रचना कमी ओळखण्यास परवानगी देते जे कमी शक्तिशाली मशीनसह पाहिले जाऊ शकत नाहीत.\n\n
+        4) हे अधिक अचूक निदानासह अधिक अत्याधुनिक इमेजिंग प्रक्रियेस अनुमती देते.\n\n
+        5) हे विकृत प्रतिमांचे जोखीम कमी करते, यामुळे पुन्हा स्कॅन करण्याची आवश्यकता दूर होते.\n\n
+    </string>
+
+    <string name="information1">
+        ​1) येथे 1.5 टी आणि 3 टी मधील “टी” चा अर्थ टेस्ला आहे..\n\n
+        2) टेस्लाला एमआरआयमध्ये वापरल्या जाणार्‍या चुंबकाच्या सामर्थ्याचे वर्णन करण्यासाठी वापरल्या जाणार्‍या मोजमापाचे एकक म्हणून परिभाषित केले जाते.\n\n
+        3) एमआरआय (चुंबकीय अनुनाद इमेजिंग) हे चुंबक आहे.\n\n
+        4)हे लोहचुंबक एमआरआय मधील प्रतिमा कशा मिळवतात याचा आधार आहे.\n\n
+        5) त्या प्रतिमेच्या गुणवत्तेवर चुंबकाची शक्ती थेट परिणाम करते, तथापि, इतर अनेक घटकांद्वारे हे निश्चित केले जाते की कोणत्या व्यक्तीची प्रतिमा तयार केली जाते आणि कोणत्या शरीराच्या किंवा शरीराच्या विशिष्ट भागासाठी स्कॅन किंवा प्रतिमा काढल्या जातात यासाठी कोणती चुंबकीय शक्ती सर्वात योग्य आहे.\n\n
+    </string>
+
+    <string name="information2">
+        ​1) ते आपल्या शरीरातील एका भागाभोवती फिरणारी एक अरुंद एक्स-रे किरण वापरतात. हे बर्‍याच वेगवेगळ्या कोनातून प्रतिमा मालिका प्रदान करते.\n\n
+        2) क्रॉस-सेक्शनल चित्र तयार करण्यासाठी संगणक या माहितीचा वापर करतो.\n\n
+        3) एका भाकरीच्या भागाच्या तुकड्यांप्रमाणेच, हे द्विमितीय (2 डी) स्कॅन आपल्या शरीराच्या आतील भागामध्ये “स्लाइस” दर्शवते.\n\n
+        4) बर्‍याच काप तयार करण्यासाठी या प्रक्रियेची पुनरावृत्ती केली जाते. आपल्या अवयवांची, हाडे किंवा रक्तवाहिन्यांची तपशीलवार प्रतिमा तयार करण्यासाठी संगणक हे स्कॅन स्टॅक करतो.\n\n
+        5) उदाहरणार्थ, शल्यक्रिया ऑपरेशनची तयारी करण्यासाठी ट्यूमरच्या सर्व बाजुकडे पाहण्यासाठी या प्रकारच्या स्कॅनचा वापर करू शकतो.\n\n
+    </string>
+    <string name="more">More Information</string>
+    <string name="morelink"><u>(Click Here)</u></string>
+
+
+    <string name="instruction">Instructions</string>
+
+    <string name="instructions">
+1) अपॉईंटमेंट घेणे शक्य आहे. \n\n
+2) तपासणीसाठी येण्यापूर्वी 2 ते 4 तासांसाठी अन्न, पाणी किंवा इतर पेये घेऊ नका.\n\n
+3) डॉक्टरांनी लिहून दिलेली सर्व औषधे घ्या.\n\n
+4) मागील सर्व एक्स-रे, सीटी सर्व अहवाल, स्कॅन इ. कॅप्चर करा.\n\n
+5) गर्भधारणेची (गर्भवती असल्यास) किंवा औषधाची आलर्जी किंवा मूत्रपिंडाच्या विकासाची संपूर्ण कल्पना देणे आवश्यक आहे.\n\n
+6) तपासणी वेळेची कमतरता असल्याने, संकटात सापडलेल्या रुग्णांना प्राधान्य देणे शक्य आहे.\n\n
+7) परंतु उत्कृष्ट गुणवत्ता राखली जाईल.\n\n
+            </string>
+    <string-array name="Gender">
+        <item>Select_Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Trancegender</item>
+    </string-array>
+
+    //counterer module
+    <string name="add">नियुक्ती जोडा</string>
+    <string name="list">नियुक्ती यादी</string>
+    <string name="report">अहवाल व्युत्पन्न करा </string>
+    <string name="title_activity_counter">counter</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_nav">nav</string>
+
+    <string name="username">वापरकर्तानाव प्रविष्ट करा</string>
+    <string name="login">नोंदणी</string>
+    <string name="nam">नाव प्रविष्ट करा</string>
+    <string name="con">संपर्क</string>
+    <string name="adco">काउंटर जोडा</string>
+    <string name="neup">बातम्या आणि अद्यतने</string>
+    <string name="rpt">अहवाल पहा</string>
+    <string name="userde">वापरकर्त्याचा तपशील</string>
+    <string name="loca">स्थानावर जा</string>
+    <string name="pass">संकेतशब्द बदला</string>
+    <string name="previous">मागील संकेतशब्द प्रविष्ट करा</string>
+    <string name="newp">नवीन पासवर्ड टाका</string>
+    <string name="change">बदल</string>
+    <string name="trya">दुसरा मार्ग वापरून पहा? फोन प्रमाणीकरण करा</string>
+    <string name="ify">आपण फोन प्रमाणीकरणासह संकेतशब्द बदलू इच्छित असल्यास आपण वापरकर्तानाव प्रदान करणे आवश्यक आहे</string>
+    <string name="tsl">1.5 टेस्ला</string>
+    <string name="tsl1">3 टेस्ला</string>
+    <string name="cts">सीटी स्कॅन</string>
+    <string name="auth">प्रमाणीकरण</string>
+    <string name="phnu">फोन नंबर प्रविष्ट करा</string>
+    <string name="ph">फोन</string>
+    <string name="sendc">कोड पाठवा</string>
+    <string name="resendc">कोड पुन्हा पाठवा</string>
+    <string name="cod">कोड</string>
+    <string name="veri">कोड सत्यापित करा</string>
+    <string name="about3t"> स्कॅनिंग मशीनविषयी</string>
+    <string name="appoint">नियुक्ती जोडा</string>
+    <string name="upcomingapp">अप कमिंग अपॉइंटमेंट</string>
+    <string name="apphistory">नियुक्तीचा इतिहास</string>
+    <string name="contt">संपर्क</string>
+    <string name="direct">दिशा मिळवा</string>
+    <string name="inst">सूचना</string>
+    <string name="off">आपण ऑफलाइन आहात</string>
+    <string name="noapp">कोणतीही नेमणूक केलेली नाही</string>
+    <string name="upl">अपलोड करा</string>
+    <string name="show">सगळं दाखवा</string>
+    <string name="tex">मजकूर</string>
+    <string name="patn">रुग्णाचे नाव</string>
+    <string name="wei">वजन</string>
+    <string name="ag">वय</string>
+    <string name="gen">लिंग</string>
+    <string name="dateapp">भेटीची तारीख निवडा</string>
+    <string name="refby">रेफरी डॉ.</string>
+    <string name="detail">क्लिनिकल तपशील</string>
+    <string name="hist">चा इतिहास</string>
+    <string name="email">ईमेल</string>
+    <string name="mob">मोबाईल क्रमांक</string>
+
+
+
+
+
+
+</resources>
